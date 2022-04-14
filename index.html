@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br
+">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CRUD</title>
 </head>
 <body>
+    <header><h1>Cadadstro de Clientes</h1></header>
+    <main>
+        <button type="button" id="cadastrarCliente">Cadatrar Cliente</button>
+        <table id="tableCliente">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Celular</th>
+                    <th>Cidade</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Cliente</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form id="form" class="modal-form">
+                    <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Noeme do Cliente" required>
+                    <input type="email" id="email" class="modal-field" placeholder="e-mail">
+                    <input type="text" id="celular" class="modal-field" placeholder="Celular" required>
+                    <input type="text" id="cidade" class="modal-field" placeholder="Cidade do cliente" required>
+                </form>
+                <footer>
+                    <button id="salvar" class="button green">Salvar</button>
+                    <button id="cancelar" class="buttun blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
     
 </body>
 </html>

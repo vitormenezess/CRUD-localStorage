@@ -7,6 +7,7 @@
     background: #00000090;
     opacity: 0;
     z-index: -1;
+    
 }
 
 .modal.active{
@@ -49,7 +50,7 @@
 
 .modal-close:hover{
     background-color: #FF4949;
-    color: white;
+    color: var(--text-color);
 }
 
 .modal-form{

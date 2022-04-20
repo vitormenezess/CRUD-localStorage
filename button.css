@@ -1,24 +1,25 @@
 .button{
     border-style: none;
     height: 40px;
-    padding: 6px 12px;
+    padding: 6px 10px;
     background-color: black;
     color: white;
     font-size: 1rem;
     cursor: pointer;
     transition: box-shadow .6s ease;
+    border-radius: 10px;
 }
 
 .button.blue{
-    background-color: #1FB6FF;
+    background-color: #66baba;
 }
 
 button.green{
-    background-color: #13CE66;
+    background-color: #4caf50;
 }
 
 button.red{
-    background-color: #FF4949;
+    background-color: #f44336;
 }
 
 .button:hover{

@@ -14,7 +14,7 @@
     <title>CRUD</title>
   </head>
   <body>
-    <header><h1 class="header-title">Cadadstro de Clientes</h1></header>
+    <header><h1 class="header-title">Cadastro de Clientes</h1></header>
     <main>
       <button type="button" class="button blue mobile" id="cadastrarCliente">Cadatrar Cliente</button>
       <table id="tableCliente" class="records">
@@ -34,7 +34,7 @@
       <div class="modal" id="modal">
         <div class="modal-content">
           <header class="modal-header">
-            <h2>Novo Cliente</h2>
+            <h2 id="title">Novo Cliente</h2>
             <span class="modal-close" id="modalClose">&#10006;</span>
           </header>
           <form id="form" class="modal-form">
@@ -43,7 +43,7 @@
               id="nome"
               data-index="new"
               class="modal-field"
-              placeholder="Noeme do Cliente"
+              placeholder="Nome do Cliente"
               required
             />
             <input
